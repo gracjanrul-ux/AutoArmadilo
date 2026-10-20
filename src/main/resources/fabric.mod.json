@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "autoarmadillo",
+  "version": "${version}",
+  "name": "AutoArmadillo",
+  "description": "Automatyczne używanie przedmiotu na pancerniku i opcjonalne wysyłanie /repair.",
+  "authors": ["AutoArmadillo"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.autoarmadillo.AutoArmadilloMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
